@@ -1,0 +1,5 @@
+# Core module works with zero dependencies (pure Python stdlib) when using
+# the default JSON file storage backend.
+#
+# Only required if you choose to use the optional PostgreSQL backend:
+psycopg2-binary>=2.9
